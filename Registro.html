@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Contactos</title>
+    <link rel="stylesheet" href="css/EstiloRegistro.css">
+    <link rel="stylesheet" href="css/EstiloMenu.css">
+</head>
+<body>
+    <hr>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="bebidas.html">Bebidas</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="conocenos.html">Comprar</a>
+        <a href="Registro.html">Regístrate</a>
+    </nav>
+    <hr>
+    <div class="contain">
+        <h1>Registro de Contactos</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre" class="form-control" required/>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Apellido" class="form-control" required/>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="809-000-0000" class="form-control" required/>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="tuemail@example.com" class="form-control" required/>
+            </div>
+            <div class="form-group">
+                <label>Género:</label>
+                <div class="checkbox-group">
+                    <label><input type="radio" name="genero" value="Hombre" required> Hombre</label>
+                    <label><input type="radio" name="genero" value="Mujer" required> Mujer</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="pais">País:</label>
+                <select id="pais" class="form-control" required>
+                    <option value="">Selecciona tu país</option>
+                    <option value="RD">República Dominicana</option>
+                    <option value="PR">Puerto Rico</option>
+                    <option value="HT">Haití</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Enviar</button>
+                <button type="reset" class="btn-reset">Limpiar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

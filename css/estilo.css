@@ -1,0 +1,163 @@
+.contain{
+    background-color: lightgrey;
+}
+
+<!--estilo de texto,
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border: 4px solid;
+    border-radius: 400px;
+    border-color: black;
+    background-color: rgb(150, 0, 0);
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: none;
+}
+p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+<!--Lista de servicios,
+#ls{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+<!--Carrusel de imagenes
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+}
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity .5s;
+}
+ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+ul.slider li:first-child{
+    opacity: 1;
+}
+ul.slider li:target{
+    opacity: 1;
+}
+
+<!--menu de las imagenes en carrusel,
+.menu{
+    text-align: center;
+    margin: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+    text-align: center;
+}
+.menu li a:hover{
+    padding: 15px;
+    font-size: 25px;
+}
+
+<!--contenedor y row de la pagina,
+.container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+}
+.row{
+    background-color: rgb(150, 0, 0);
+    border: 3px solid black;
+}
+
+<!--estilo de la lista de bebidas en inicio,
+.col-1{
+    color: whitesmoke;
+    background-color: rgb(150, 0, 0);
+    border: 4px solid black;
+    float: left;
+    text-align: justify;
+}
+.list li{
+ border-color: rgb(150, 0, 0);
+}
+
+<!--imagenes,
+#limg{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+}
+
+<!--Tabla de ventas,
+#venta{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+table,th,td{
+    border: 2px solid black;
+    font-size: 20px;
+    font-family: cursive;
+}
+th{
+    background-color: rgb(150, 0, 0);
+    color: white;
+    font-size: 25px;
+}
+button{
+    font-size: 15px;
+    margin-left: 10px;
+}
+button:hover{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    color: white;
+}
+
+.logo{
+    float: right; 
+    width: 170px; 
+    height: 115px; 
+    top: 0; 
+    border: 3px solid black;
+}

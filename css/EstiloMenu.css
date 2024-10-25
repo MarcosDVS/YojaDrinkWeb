@@ -1,0 +1,30 @@
+/* Barra de menú */
+nav {
+    background: linear-gradient(90deg, rgb(150, 0, 0), rgb(90, 0, 0));
+    border-bottom: 3px solid black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Estilos de los enlaces */
+nav a {
+    color: white;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    margin: 0 15px;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 25px;
+}
+
+/* Efecto hover */
+nav a:hover {
+    background-color: white;
+    color: rgb(150, 0, 0);
+    border-radius: 25px;
+    transform: scale(1.1);
+    font-family: 'Georgia', serif;
+}
